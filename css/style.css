@@ -1,0 +1,117 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.global_part{
+    float: left;
+    width: 100%;
+}
+
+.global_part.header{
+    background-color:  #abeafa;
+    height: 700px;
+}
+
+.global_part.main{
+    background-color:  #cccccc;
+    min-height: 700px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+
+
+    border: thin solid /* Убрать */
+}
+
+.container.top{
+    margin-top: -20px;
+}
+
+.header .logo{
+    position: absolute;
+    display: block;
+    background-image: url("../img/logo.png");
+    width: 125px;
+    height: 111px;
+    left: 69px;
+    top: 23px;
+}
+
+.header .box_welcome{
+    display: block;
+    position: absolute;
+    width: 270px;
+    height: 300px;
+    background-color: #fff51f;
+    top: 336px;
+}
+.header .box_welcome .welcome_first{
+    font-family: 'Raleway Bold', arial;
+    padding: 47px 0 0 25px;
+    color:  #333333;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+.header .box_welcome .welcome_second{
+    font-family: 'Raleway Bold Italic', arial;
+    margin: -29px 0 0 25px;
+    color:  #333333;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: left;
+}
+.header .header_social {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 16px;
+    top: 48px;
+    right: 65px;
+}
+.header .header_social a{
+    text-decoration: none;
+    color: #fff;
+}
+.header .slide {
+    display: block;
+    position: absolute;
+    height: 280px;
+    width: 320px;
+    left: 750px;
+    top: 196px;
+}
+.header .slide .slide_title{
+    font-family: 'Raleway ExtraBold', arial;
+    color:  #fff51f;
+    font-size: 48px;
+    line-height: 34px;
+    text-align: left;
+}
+.header .slide .slide_main {
+    font-family: 'Raleway Regular', arial;
+    color:  #fff51f;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    margin: -43px 0 0 0px;
+}
+.header .slide .slide_button{
+    display: block;
+    width: 124px;
+    height: 49px;
+    background-color: #fff51f;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: center;
+    margin: 62px 0 0 3px;
+}

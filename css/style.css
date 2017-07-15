@@ -1,3 +1,13 @@
+@import url(http://allfont.ru/allfont.css?fonts=roboto-bold);
+@import url(http://allfont.ru/allfont.css?fonts=raleway-bold);
+@import url(http://allfont.ru/allfont.css?fonts=raleway-bold-italic);
+@import url(http://allfont.ru/allfont.css?fonts=raleway-extrabold);
+@import url(http://allfont.ru/allfont.css?fonts=raleway-regular);
+@import url(http://allfont.ru/allfont.css?fonts=roboto-black);
+@font-face {
+    font-family: 'RalewayHeavy';
+    src: url("../fonts/Raleway-Heavy.otf");
+}
 
 body {
     padding: 0;
@@ -5,35 +15,33 @@ body {
     width: 100%;
 }
 
-.global_part{
+.global_part {
     float: left;
     width: 100%;
 }
 
-.global_part.header{
-    background-color:  #abeafa;
+.global_part.header {
+    background-color: #abeafa;
     height: 700px;
 }
 
-.global_part.main{
-    background-color:  #cccccc;
+.global_part.main {
+    background-color: #f8f8f8;
     min-height: 700px;
 }
 
-.container{
+.container {
     width: 1170px;
     margin: 0 auto;
     position: relative;
-
-
-    border: thin solid /* Убрать */
+    border: thin solid/* Убрать */
 }
 
-.container.top{
+.container.top {
     margin-top: -20px;
 }
 
-.header .logo{
+.header .logo {
     position: absolute;
     display: block;
     background-image: url("../img/logo.png");
@@ -43,7 +51,7 @@ body {
     top: 23px;
 }
 
-.header .box_welcome{
+.header .box_welcome {
     display: block;
     position: absolute;
     width: 270px;
@@ -51,24 +59,27 @@ body {
     background-color: #fff51f;
     top: 336px;
 }
-.header .box_welcome .welcome_first{
+
+.header .box_welcome .welcome_first {
     font-family: 'Raleway Bold', arial;
     padding: 47px 0 0 25px;
-    color:  #333333;
+    color: #333333;
     font-size: 30px;
     font-weight: 700;
     line-height: 30px;
     text-align: left;
 }
-.header .box_welcome .welcome_second{
+
+.header .box_welcome .welcome_second {
     font-family: 'Raleway Bold Italic', arial;
     margin: -29px 0 0 25px;
-    color:  #333333;
+    color: #333333;
     font-size: 18px;
     font-weight: 700;
     line-height: 14px;
     text-align: left;
 }
+
 .header .header_social {
     position: absolute;
     display: flex;
@@ -78,10 +89,12 @@ body {
     top: 48px;
     right: 65px;
 }
-.header .header_social a{
+
+.header .header_social a {
     text-decoration: none;
     color: #fff;
 }
+
 .header .slide {
     display: block;
     position: absolute;
@@ -90,28 +103,109 @@ body {
     left: 750px;
     top: 196px;
 }
-.header .slide .slide_title{
+
+.header .slide .slide_title {
     font-family: 'Raleway ExtraBold', arial;
-    color:  #fff51f;
+    color: #fff51f;
     font-size: 48px;
     line-height: 34px;
     text-align: left;
 }
+
 .header .slide .slide_main {
     font-family: 'Raleway Regular', arial;
-    color:  #fff51f;
+    color: #fff51f;
     font-size: 18px;
     line-height: 24px;
     text-align: left;
     margin: -43px 0 0 0px;
 }
-.header .slide .slide_button{
+
+.header .slide .slide_button {
     display: block;
     width: 124px;
     height: 49px;
     background-color: #fff51f;
     text-align: center;
     text-decoration: none;
-    vertical-align: center;
     margin: 62px 0 0 3px;
+    line-height: 49px;
+    font-family: 'RalewayHeavy', arial;
+    color: #000;
+    font-size: 14px;
 }
+
+.main .main_menu {
+    position: relative;
+    z-index: 1;
+}
+
+.main .main_menu lh {
+    display: block;
+    background-color: #333333;
+    width: 270px;
+    height: 66px;
+    color: #fff;
+    line-height: 66px;
+    text-indent: 40px;
+    font-family: 'Roboto Bold', arial;
+    font-size: 14px;
+}
+
+.main .main_menu ul {
+    background-color: #26d2fc;
+    width: 270px;
+    padding: 0;
+    margin: 0
+}
+
+.main .main_menu li {
+    list-style-type: none;
+}
+
+.main .main_menu a {
+    text-decoration: none;
+    display: block;
+    height: 37px;
+    line-height: 43px;
+    text-indent: 40px;
+    color: #000;
+    font-family: 'Roboto Black', arial;
+    font-size: 14px;
+}
+
+.main .main_menu a:hover {
+    background-color: #333333;
+    color: #fff;
+}
+
+.main .banner1 {
+    display: block;
+    background-color: #e0e0e0;
+    width: 270px;
+    height: 300px;
+    margin-top: 30px;
+    font-family: 'RalewayHeavy', arial;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: left;
+    padding:
+}
+
+.main .banner1 .text {
+    padding: 126px 0 0 138px;
+}
+
+.main .menu_block {
+    float: left;
+}
+
+.main .newProduct {
+    margin: 0 0 0 30px;
+    float: left;
+    background-color: red;
+    width: 870px;
+    min-height: 724px;
+}
+
+.main .newProduct .product_title {}

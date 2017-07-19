@@ -14,6 +14,9 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
+    background: url("../img/background.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .global_part {
@@ -22,7 +25,7 @@ body {
 }
 
 .global_part.header {
-    background-color: #abeafa;
+
     height: 700px;
 }
 
@@ -207,7 +210,7 @@ body {
     min-height: 400px;
 }
 
-.main .Product .product_title {
+.main .Product .product_title h2{
     font-family: 'Roboto Black', arial;
     color: #919191;
     font-size: 22px;
@@ -227,10 +230,16 @@ body {
     width: 270px;
     min-height: 320px;
     margin-bottom: 30px;
+    float: left;
 }
 
 .main .Product .product_img {
     background-color: #eaeaea;
+    width: 250px;
+    height: 235px;
+    margin: 10px;
+}
+.main .Product .product_img img{
     width: 250px;
     height: 235px;
     margin: 10px;
@@ -243,7 +252,8 @@ body {
     line-height: 18.012px;
     text-align: left;
     padding: 9px 0 0 22px;
-    width: 140px;
+    width: 130px;
+    float: left;
 }
 
 .main .Product .price {
@@ -251,8 +261,7 @@ body {
     color: #333333;
     font-size: 18px;
     text-align: right;
-    margin: -11px 21px 0px 0;
-    width: 130px;
+    margin: 10px 21px 0px 0;
     float: right;
     line-height: 15px;
 }
@@ -277,6 +286,11 @@ body {
     height: 160px;
     margin: 0 auto;
 }
+.pre_footer .brand h2{
+    font-family: 'Raleway Bold', arial;
+    text-align: center;
+}
+
 
 .pre_footer .instagram {
     height: 105px;
@@ -400,6 +414,21 @@ body {
     color: #faef03;
 }
 
+.footer .footer_flex .footer_div input[type="email"]
+{
+    background-color:  #fff51f;
+    width: 150px;
+    height: 20px;
+    border: none;
+}
+.footer .footer_flex .footer_div input[type="button"]
+{
+    height: 35px;
+    width: 70px;
+    background-color: black;
+    color: yellow;
+
+}
 .last_footer {
     background-color: #333333;
     height: 47px;
